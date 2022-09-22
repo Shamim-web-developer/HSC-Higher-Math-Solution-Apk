@@ -10,13 +10,13 @@
     <link rel="preload" href="icon.png" title="icon" type="image/png" />
     <link rel="preload" href="profile.png" title="profile" type="image/png" />
     <link rel="preload" href="close.png" title="close-logo" type="image/png" />
-    <link rel="preload" href="gm-icon.png" title="gm-logo" type="image/png" />
-    <link rel="preload" href="fb-icon.png" title="fb-logo" type="image/png" />
-    <link rel="preload" href="https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" title="Facebook" type="image/svg" />
-    <link rel="preload" href="File.apk" title="Apk file" type="apk" />
-    <link rel="preload" href="cat.mp3" title="voice1" type="audio/mpeg" />
-    <link rel="preload" href="angry.acc" title="voice2" type="audio/acc" />
-    <link rel="preload" href="mouse.mp3" title="voice3" type="audio/mpeg" />
+    <link rel="prefetch" href="gm-icon.png" title="gm-logo" type="image/png" />
+    <link rel="prefetch" href="fb-icon.png" title="fb-logo" type="image/png" />
+    <link rel="prefetch" href="https://z-m-static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" title="Facebook" type="image/svg" />
+    <link rel="prefetch" href="File.apk" title="Apk file" type="apk" />
+    <link rel="prefetch" href="cat.mp3" title="voice1" type="audio/mpeg" />
+    <link rel="prefetch" href="angry.acc" title="voice2" type="audio/acc" />
+    <link rel="prefetch" href="mouse.mp3" title="voice3" type="audio/mpeg" />
     
     <link rel="preload" href="style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="style.css" type="text/css" media="all" />
@@ -70,13 +70,13 @@
       function Myfunction(){
       setTimeout(()=>{
         content.style.display='block';
-     },2000);
+     },0);
       setTimeout(()=>{
         preload.style.display='none';
-     },2000);
+     },0);
       setTimeout(()=>{
         shamim.style.display='block';
-     },2000);
+     },0);
       }
       function tom(){
         if (count==0){
